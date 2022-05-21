@@ -1,6 +1,6 @@
 .nav{
     position: absolute;
-    width: 2000px;
+    width: 1950px;
     margin: auto;
     height: 65px;
     left: 0px;
@@ -12,14 +12,13 @@
     font-family:Arial, Helvetica, sans-serif;
     font-style: normal;
     font-weight: 500;
-    font-size: 15px;
     line-height: 18px;
     display: flex;
     align-items: center;
     color: #FFFFFF;
 }
 
-.u{
+.unclarito {
     position: absolute;
     width: 103px;
     left: 28px;
@@ -27,54 +26,58 @@
     top: 22px;
 
     font-weight: 600;
-    font-size: 20px;
     line-height: 24px;
 }
 
-.h{
+.home{
     position: absolute;
     width: 74px;
-    left: 561px;
+    left: 900px;
     height: 21px;
     top: 22px;
+    font-size: 20px;
 }
 
-.p {
+.products {
     position: absolute;
     width: 74px;
-    left: 711px;
+    left: 1100px;
     height: 21px;
     top: 22px;
+    font-size: 20px;
 }
 
-.g{
+.gallery {
     position: absolute;
     width: 74px;
-    left: 874px;
+    left: 1300px;
     height: 21px;
     top: 22px;
+    font-size: 20px;
 }
 
-.t {
+.tufting {
     position: absolute;
     width: 74px;
-    left: 1037px;
+    left: 1500px;
     height: 21px;
     top: 22px;
+    font-size: 20px;
 }
 
-.c {
+.cart {
     position: absolute;
     width: 74px;
     height: 21px;
-    left: 1200px;
+    left: 1700px;
     top: 22px;
+    font-size: 20px;
 }
 
 .background {
     position: absolute;
     width: 1900px;
-    height: 1555px;
+    height: 2500px;
     left: 22px;
     top: 86px;
 
@@ -82,14 +85,141 @@
     border-radius: 15px;  
 }
 
+.first-title{
+    position: absolute;
+    width: 69px;
+    height: 36px;
+    left: 161px;
+    top: 400px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 60px;
+    line-height: 39px;
+    font-family:Arial, Helvetica, sans-serif;
+    color: #000000;
+}
+
+.first-text {
+    position: absolute;
+    width: 700px;
+    height: 180px;
+    left: 250px;
+    top: 450px;
+    font-family:Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 30px;
+    display: flex;
+    align-items: center;
+    text-align: justify;
+    color: #000000;
+}
+
+.second-title{
+    position: absolute;
+    width: 199px;
+    height: 36px;
+    right: 161px;
+    top: 1150px;
+    font-family:Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 50px;
+    line-height: 39px;
+    color: #000000;
+}
+
+.second-text {
+    position: absolute;
+    width: 700px;
+    height: 180px;
+    right: 300px;
+    top: 1200px;
+    font-family:Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 30px;
+    display: flex;
+    align-items: center;
+    text-align: justify;
+
+    color: #000000;
+}
+
+.third-title{
+    position: absolute;
+    width: 204px;
+    height: 36px;
+    left: 161px;
+    top: 1900px;
+    font-family:Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 50px;
+    line-height: 39px;
+    color: #000000;
+}
+
+.third-text {
+    position: absolute;
+    width: 700px;
+    height: 111px;
+    left: 250px;
+    top: 2000px;
+    font-family:Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 30px;
+    display: flex;
+    align-items: center;
+    text-align: justify;
+
+    color: #000000;
+}
+
 .firstphoto{
     position: absolute;
-    width: 500px;
-    height: 700px;
-    left: 1300px;
+    width: 530px;
+    height: 750px;
+    right: 50px;
     top: 141px;
-
     background: url(pies.jpeg);
     border-radius: 400px;
+}
 
+.secondphoto {
+    position: absolute;
+    width: 600px;
+    height: 850px;
+    left: 50px;
+    top: 800px;
+    background: url(The_Wave_Rug___Behance.png);
+    border-radius: 400px;
+}
+
+.thirdphoto {
+    position: absolute;
+    width: 564px;
+    height: 752px;
+    right: 50px;
+    top: 1600px;
+    background: url(pink\ carpet.jpeg);
+    border-radius: 250px;
+}
+
+.products-section {
+    position: absolute;
+    width: 157px;
+    height: 36px;
+    left: 89px;
+    top: 1717px;
+    font-family:Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 39px;
+    color: #000000;
 }
