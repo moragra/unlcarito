@@ -1,21 +1,35 @@
-.nav{
-    position: absolute;
-    width: 1950px;
-    margin: auto;
-    height: 65px;
-    left: 0px;
-    top: 0px;
+.nav ul{
+    margin: 0;
+    padding: 35px;
+    width: 100%;
+    display: block;
     background: #000000;
+    list-style: none;
 }
 
-.font{
+.nav li{
+    width: 100%;
+    display: inline;
+    padding: 5%;
+}
+
+.background {
+    display: block;
+    width: 100%;
+    border: 20px;
+    margin: 50px;
+    background: rgba(196, 196, 196, 0.12);
+    border-radius: 15px;  
+}
+
+a:link, a:visited, a:hover, a:active {
+    font-size: 21px;
     font-family:Arial, Helvetica, sans-serif;
     font-style: normal;
     font-weight: 500;
     line-height: 18px;
-    display: flex;
-    align-items: center;
-    color: #FFFFFF;
+    text-decoration: none;
+    color: white;
 }
 
 .unclarito {
@@ -74,16 +88,7 @@
     font-size: 20px;
 }
 
-.background {
-    position: absolute;
-    width: 1900px;
-    height: 2500px;
-    left: 22px;
-    top: 86px;
 
-    background: rgba(196, 196, 196, 0.12);
-    border-radius: 15px;  
-}
 
 .first-title{
     position: absolute;
@@ -186,7 +191,7 @@
     height: 750px;
     right: 50px;
     top: 141px;
-    background: url(pies.jpeg);
+    background: url(img/pies.jpeg);
     border-radius: 400px;
 }
 
@@ -196,7 +201,7 @@
     height: 850px;
     left: 50px;
     top: 800px;
-    background: url(The_Wave_Rug___Behance.png);
+    background: url(img/The_Wave_Rug___Behance.png);
     border-radius: 400px;
 }
 
@@ -206,7 +211,7 @@
     height: 752px;
     right: 50px;
     top: 1600px;
-    background: url(pink\ carpet.jpeg);
+    background: url(img/pink\ carpet.jpeg);
     border-radius: 250px;
 }
 
