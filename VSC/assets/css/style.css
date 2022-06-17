@@ -13,6 +13,7 @@
                             "footer footer";
 }
 
+
 .main {
     grid-area: main;
     margin: 15px;
@@ -341,4 +342,50 @@
     font-family: Arial, Helvetica, sans-serif;
     font-weight: 300;
     margin: 5px;
+}
+
+.container_cart {
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-template-rows: 100px auto auto auto 100px;
+    grid-template-areas:    "nav        nav"
+                            "header     aside"
+                            "main       aside"
+                            "main       aside"
+                            "footer     footer";
+}
+
+.aside {
+    grid-area: aside;
+    background-color: aqua;
+}
+
+.cart_list {
+    display: flex;
+}
+
+
+
+.cart_title {
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+}
+
+.cart_text {
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+}
+
+.cart_btn{
+    background-color: rgb(71, 70, 70);
+    border: none;
+    width: 100%;
+    height: 100px;
+}
+
+.cart_btn a {
+    text-decoration: none;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
 }
