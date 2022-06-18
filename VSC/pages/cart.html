@@ -72,19 +72,35 @@
         </div>
     </main>
     <aside class="aside">
-        <section class="payment_details">
+        <div class="payment_details">
             <h2 class="payment_details_title">Payment Details</h2>
-            <div class="card">
-                <img class="visa_img" src="../assets/img/visa_logo.png" alt="visa logo">
-                <p class="card_number_title">Card Number</p>
-                <p class="card_number_text">2335 6575 7438 7854</p>
-                <p class="card_holder_title">Card Holder Name</p>
-                <p class="card_holder_text">Grace Mora Mejias</p>
-                <p class="card_expiration_title">Expiration</p>
-                <p class="card_expiration_text">02/2023</p>
-                <p class="card_ccv_title">CCV</p>
-                <p class="card_ccv_text">4241</p>
-            </div>
+            <article class="card">
+                <section>
+                    <div class="visa">
+                        <img class="visa_img" src="../assets/img/visa_logo.png" alt="visa logo">
+                    </div>
+                    <article class="card_info">
+                        <div class="card_number">
+                            <p class="card_title">Card Number</p>
+                            <p class="card_text">2335 6575 7438 7854</p>
+                        </div>
+                        <section class="card_names">
+                            <div>   
+                                <p class="card_title">Card Holder Name</p>
+                                <p class="card_text">Grace Mora Mejias</p>
+                            </div>
+                            <div>
+                                <p class="card_title">Expiration</p>
+                                <p class="card_text">02/2023</p>
+                            </div>
+                            <div>
+                                <p class="card_title">CCV</p>
+                                <p class="card_text">4241</p>
+                            </div>
+                        </section>
+                    </article>
+                </section>
+            </article>
             <h2 class="total_title">Total Cost</h2>
             <h3 class="total_title">Total</h3>
             <span class="total_title">$180</span>
@@ -92,7 +108,7 @@
             <form action="./checkout.html" method="get">
                 <button type="submit" class="cart_btn"><a href="./checkout.html">Checkout</a></button>
             </form>
-        </section>
+        </div>
     </aside>
     <footer class="footer">
         <ul>
